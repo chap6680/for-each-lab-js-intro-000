@@ -7,3 +7,16 @@ function iterativeLog(getA) {
     console.log(`${index}: ${element}`);
   });
 }
+
+
+function iterate(callback) {
+  const cats = ["puffin", "cosmo", "kramwe"]
+
+  cats.forEach(callback)
+
+  return cats
+}
+
+function doToArray(array, callback) {
+  array.forEach(callback)
+}
